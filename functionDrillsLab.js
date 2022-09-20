@@ -55,7 +55,7 @@ function greeting(inputName) {
 
 // OR
 
-let greeting = (inputName) => { return `Hello, ${inputName}`};
+let greeting1 = (inputName) => { return `Hello, ${inputName}`};
 console.log(greeting("Jake"))
 
 ////////////////// PROBLEM 5 ////////////////////
@@ -187,7 +187,7 @@ function faveColorFinder(color) {
  }else if(color === "black"){
   return "so trendy";
  }else{
-  return "you need to evaluate your favorite color choice"
+  return "you need to evaluate your favorite color choice";
  }
 }
 let colorRating = faveColorFinder("blue")
@@ -218,9 +218,9 @@ printAllNames(namesArr)
 //CODE HERE
 function thatsOdd(number) {
   if(number % 2 === 0){
-    return "That's not odd!"
+    return "That's not odd!";
   }else{
-    return "That is odd indeed"
+    return "That is odd indeed";
   }
 }
 let oddChecker = thatsOdd(21);
@@ -342,8 +342,8 @@ function buyFrogs(amountSpent){
   let result = amountSpent / 3;
   return Math.floor(result) + ` Chocolate frogs.`;
 }
-const totalFrogs = buyFrogs(107);
-console.log(totalFrogs)
+const totalFrogs2 = buyFrogs(107);
+console.log(totalFrogs2)
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
